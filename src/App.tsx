@@ -18,7 +18,7 @@ import { BloatInvaders } from './pages/games/BloatInvaders';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/fundament-studio-hub">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
