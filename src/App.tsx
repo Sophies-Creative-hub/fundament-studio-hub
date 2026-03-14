@@ -11,10 +11,7 @@ import { Gesundheit } from "./pages/Gesundheit";
 import { GamesHub } from './pages/games/GamesHub';
 import { SwipeTheBloat } from './pages/games/SwipeTheBloat';
 import { WhackABug } from './pages/games/WhackABug';
-import { PopupHoelle } from './pages/games/PopupHoelle';
-import { LighthouseSprint } from './pages/games/LighthouseSprint';
 import { TechStackTower } from './pages/games/TechStackTower';
-import { BloatInvaders } from './pages/games/BloatInvaders';
 
 export default function App() {
   return (
@@ -32,10 +29,7 @@ export default function App() {
           <Route path="arcade" element={<GamesHub />} />
           <Route path="arcade/swipe-the-bloat" element={<SwipeTheBloat />} />
           <Route path="arcade/whack-a-bug" element={<WhackABug />} />
-          <Route path="arcade/popup-hoelle" element={<PopupHoelle />} />
-          <Route path="arcade/lighthouse-sprint" element={<LighthouseSprint />} />
           <Route path="arcade/tech-stack-tower" element={<TechStackTower />} />
-          <Route path="arcade/bloat-invaders" element={<BloatInvaders />} />
         </Route>
       </Routes>
     </BrowserRouter>

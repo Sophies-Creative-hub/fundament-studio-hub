@@ -4,10 +4,7 @@ import { Gamepad2, Ghost, Skull, Zap, Layers, MousePointerClick } from "lucide-r
 const games = [
   { id: "swipe-the-bloat", name: "Swipe the Bloat", icon: Layers, desc: "Tinder für Plugins. Behalten oder löschen?", color: "text-blue-500" },
   { id: "whack-a-bug", name: "Whack-a-Bug", icon: Ghost, desc: "Hau die Bugs weg, bevor der Kunde sie sieht!", color: "text-red-500" },
-  { id: "popup-hoelle", name: "Die Popup-Hölle", icon: MousePointerClick, desc: "Schließe alle Popups und lies den Artikel.", color: "text-yellow-500" },
-  { id: "lighthouse-sprint", name: "Lighthouse Sprint", icon: Zap, desc: "Spring über Render-Blocking Scripts!", color: "text-emerald-500" },
   { id: "tech-stack-tower", name: "Tech-Stack Tower", icon: Gamepad2, desc: "Staple deinen Stack, ohne dass er umfällt.", color: "text-purple-500" },
-  { id: "bloat-invaders", name: "Bloat Invaders", icon: Skull, desc: "Schieß den Bloat ab, bevor er den Server erreicht.", color: "text-accent" },
 ];
 
 export function GamesHub() {

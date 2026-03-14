@@ -80,7 +80,7 @@ export function Layout() {
         </nav>
         <div className="p-4 border-t border-border">
           <a
-            href="https://deine-wordpress-seite.de"
+            href="https://fundament-studio.de"
             target="_blank"
             rel="noopener noreferrer"
             className={cn(
