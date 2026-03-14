@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+/* ========================================
+   TAILWIND THEME
+   ======================================== */
+
+@theme {
+  /* Custom Colors */
+  --color-accent: #C85A17;
+  --color-bg: #FDF8E7;
+  --color-card: #FFFFFF;
+  --color-border: #3E2723;
+  --color-text: #3E2723;
+  --color-dim: #795548;
+  --color-inv: #FFFFFF;
+  --color-highlight: #E67A3B;
+  --color-red: #C85A17;
+  --color-yellow: #E67A3B;
+  
+  /* Font Families */
+  --font-family-sans: 'Plus Jakarta Sans', sans-serif;
+  --font-family-display: 'Outfit', sans-serif;
+}
+
+/* ========================================
+   BRUTAL DESIGN COMPONENTS
+   ======================================== */
+
+.brutal-card {
+    background-color: var(--color-card);
+    border: 1px solid var(--color-border);
+    border-radius: 1rem;
+    box-shadow: 2px 2px 0px 0px #3E2723;
+    transition: all 0.2s;
+}
+
+.brutal-card-hover:hover {
+    transform: translate(1px, 1px);
+    box-shadow: 1px 1px 0px 0px #3E2723;
+}
+
+.brutal-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--color-accent);
+    color: var(--color-inv);
+    border: 1px solid var(--color-border);
+    border-radius: 9999px;
+    font-weight: 500;
+    box-shadow: 2px 2px 0px 0px #3E2723;
+    transition: all 0.2s;
+}
+
+.brutal-btn:hover {
+    transform: translate(1px, 1px);
+    box-shadow: 1px 1px 0px 0px #3E2723;
+}
+
+.brutal-btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--color-card);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+    border-radius: 9999px;
+    font-weight: 500;
+    box-shadow: 2px 2px 0px 0px #3E2723;
+    transition: all 0.2s;
+}
+
+.brutal-btn-secondary:hover {
+    transform: translate(1px, 1px);
+    box-shadow: 1px 1px 0px 0px #3E2723;
+}
+
+/* ========================================
+   CUSTOM UTILITY CLASSES
+   ======================================== */
+
+/* Display font utility */
+.font-display {
+    font-family: var(--font-family-display);
+}
+
+/* ========================================
+   GLOBAL STYLES
+   ======================================== */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-family-sans);
+    background-color: var(--color-bg);
+    color: var(--color-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-display);
+    letter-spacing: -0.02em;
+}
